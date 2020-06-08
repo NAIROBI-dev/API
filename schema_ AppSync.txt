@@ -1,0 +1,15 @@
+schema {
+  query: Query
+}
+
+type Query {
+  testAuroraDBCustomer(customerID: String): customerTable
+}
+
+type customerTable {
+  customerID: String
+  name: String
+  nameKana: String
+  plazaID: String
+  sex: String
+}
