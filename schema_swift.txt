@@ -1,0 +1,7 @@
+query testAuroraDBCustomer{
+  testAuroraDBCustomer(customerID:"bdf345t25e") {
+    plazaID
+    customerID
+    name
+  }
+}
